@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-container">
+        EXPENSE TRACKER
+    </div>
+
+    <div class="hero">
+        <div class="expense_container">
+            <div class="add_expenses">
+                <div class="time_block">
+                    <p id="year"></p>
+                    <div class="day">
+                        <p id="date"></p>
+                        <p id="Time"></p>
+                    </div>
+                </div>
+                <div class="inp">
+                    <input type="text" id="amount_exp" placeholder="Add Your Expense">
+                    <select name="type" id="expense_type">
+                        <option value="expense">EXPENSE</option>
+                        <option value="income">INCOME</option>
+                        <option value="Reimbursed">REIMBURSED</option>
+                    </select>
+                </div>
+                <div class="inp">
+                    <input type="Comment" id="remark" placeholder="Remark">
+                </div>
+                <button id="update">Update</button>
+            </div>
+
+            <div class="expense-level">
+                <div class="circle" id="TRACKER">
+                    <div class="water" id="WATER"></div>
+                </div>
+                <button id="resetBtn">RESET</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="transaction-history">
+
+    </div>
+
+    <div class="Expense_graph">
+        <canvas id="Expense-chart"></canvas>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

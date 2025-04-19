@@ -1,0 +1,107 @@
+.item-hero{
+    background-color: #1b1c2c;
+    height: 100%;
+}
+
+.hero-img-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    contain: content;
+    position: relative;
+    flex-shrink: 0;
+    /* margin-right: 10px; */
+}
+
+.hero-section .item-hero{
+    height: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    display: none;
+}
+
+.images{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    width: auto;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.hero-img-overlay{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section .slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.hero-section .slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+
+
+.slider-div{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0%, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-img-container img {
+    filter: grayscale(100%); /* Makes the image black and white */
+    transition: filter 0.5s ease; /* Smooth transition */
+}
+  
+.hero-img-container img:hover {
+    filter: grayscale(0%); 
+}
+
+.hero-img-overlay h1{
+    text-shadow: 1px 1px 2px pink;
+}
+
+.hero-img-overlay h4{
+    text-shadow: 1px 1px 2px pink;
+}

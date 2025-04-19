@@ -1,0 +1,126 @@
+.item-sidepanel{
+    background-color: #282b42;
+}
+
+.sid-panel-contents{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 96%;
+    grid-template-rows: repeat(5, 17.8%);
+    gap: 2%;
+    margin-top: 2%;
+    overflow-y: scroll;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.content-sleeve{
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.200);
+    display: flex;
+    padding: 5px;
+}
+
+.content-sleeve:hover{
+    background-color: rgba(255, 255, 255, 0.400);
+}
+
+.content-img-sleeve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.content-img-sleeve img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+}
+
+.content-title{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Animation for filling effect */
+/* @keyframes fillFromLeft {
+    from {
+      background: transparent;
+      width: 0%;
+    }
+    to {
+      background: white;
+      width: 100%;
+    }
+  }
+  
+  .filling {
+    animation: fillFromLeft 5s linear forwards;
+    position: relative;
+    overflow: hidden;
+  } */
+
+
+  /* @keyframes fillWithColor {
+    from {
+      background-color: rgba(255, 255, 255, 0.200);
+    }
+    to {
+      background-color: rgba(255, 255, 255, 0.800);;
+    }
+  }
+  
+  .filling {
+    animation: fillWithColor 5s ease-in forwards;
+    position: relative;
+  }         */
+
+/* Animation for filling effect */
+@keyframes fillFromLeft {
+    from {
+      background: rgba(255, 255, 255, 0.411);
+      width: 0%;
+    }
+    to {
+      background: rgba(255, 255, 255, 0.404);
+      width: 100%;
+    }
+  }
+  
+  .filling {
+    animation: fillFromLeft 5s linear forwards;
+    position: relative; /* Ensures the div doesn't affect layout */
+    overflow: hidden;
+}
+
+.gradfill {
+    position: absolute; /* Positions the gradfill inside its parent */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Moves gradfill behind other content */
+    border-radius: 0.5rem;
+  }
+  
+  .content-sleeve {
+    position: relative; /* Ensures gradfill is positioned relative to its parent */
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.200);
+    display: flex;
+    padding: 5px;
+  }
+  
+  .filling {
+    animation: fillFromLeft 5s linear forwards;
+    position: absolute; /* Keeps filling in the background */
+    z-index: -1;
+  }

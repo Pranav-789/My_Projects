@@ -1,0 +1,65 @@
+.item-contents{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.414);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Trending{
+    margin-top: 10px;
+    height: 40vh;
+    width: 100%;
+    /* padding: 10px; */
+    background-color: #1b1c2c;
+    /* border-radius: 1rem; */
+    /* object-fit: cover; */
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.anime-sleeve{
+    height: 100%;
+    /* width: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.anime-sleeve img {
+    height: 80%; /* Scale the image to match the height of the parent */
+    width: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image fits nicely within the container */
+    border-radius: 0.5rem;
+}
+
+.anime-sleeve-text{
+    color: white;
+    width: auto;
+    font-size: 1rem;
+}
+
+.tren-title{
+    height: 90%;
+    width: 150px;
+    color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #343655;
+}
+
+
+.anime-sleeve img:hover {
+    height: 88%; /* Scale the image to match the height of the parent */
+    width: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image fits nicely within the container */
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.693);
+}
