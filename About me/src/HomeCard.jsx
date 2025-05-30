@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "motion/react";
-import PopUpFromBottom from './PopUpFromBottom';
-import BluePops from './BluePops';
-import AuraRing from './AuraRing';
+import PopUpFromBottom from './Components/PopUpFromBottom';
+import BluePops from './Components/BluePops';
+import AuraRing from './Components/AuraRing';
 import Typed from "typed.js";
 
 
@@ -38,11 +38,12 @@ const HomeCard = () => {
           delay: 2.4,
           duration: 0.6,
         }}
+        className="z-140 relative"
       >
         <h1 className="text-center font-medium text-4xl mt-45 sm:mt-24 mt-short-screen">
           Hi I'm <span className="text-teal-300">Pranav Zambare</span>
         </h1>
-        <div className="text-center mt-2 text-2xl">
+        <div className="text-center mt-2 text-2xl text-black font-semibold">
           <span ref={typedRef} />
         </div>
       </motion.div>

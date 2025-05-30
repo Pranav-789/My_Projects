@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import chatImage from './assets/ChatGPT Image May 28, 2025, 10_38_26 AM.png'; // adjust path as needed
+import chatImage from '../assets/ChatGPT Image May 28, 2025, 10_38_26 AM.png'; // adjust path as needed
 
 
 const PopUpFromBottom = () => {
