@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="ml-8">
           <h1 className="text-2xl font-semibold text-black">Pranav Zambare</h1>
           <button className="bg-blue-600 p-2 rounded-xl hover:bg-blue-500 active:scale-[0.9] mt-2 ">
-            Connect Here
+            <a href="https://www.linkedin.com/in/pranav-zambare-41917a310/">Connect here</a>
           </button>
         </div>
       </motion.div>
