@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import {motion} from 'motion/react'
+import pfp from '../../assets/pfp_123.jpg'
 
 const AboutMe = () => {
   return (
@@ -24,7 +25,7 @@ const AboutMe = () => {
       >
         <div className="flex md:flex-row gap-4 flex-col justify-center items-center">
           <img
-            src="src\assets\pfp_123.jpg"
+            src={pfp}
             className="w-full max-w-[400px] rounded-xl object-cover"
           />
           <div className="p-4">
