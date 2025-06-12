@@ -11,7 +11,7 @@ const AuraRing = () => {
   return (
     // ...existing code...
     <motion.div
-      className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-105 h-105 z-100"
+      className="absolute bottom-0 left-1/2 transform -translate-x-1/2 sm:w-105 sm:h-105 z-90 w-95 h-95"
       initial={{
         y: "100%",
         scale: 0,
@@ -27,7 +27,7 @@ const AuraRing = () => {
       }}
     >
       <div className="w-full h-full rounded-full border-4 border-gray-800 relative">
-        <div className="absolute h-20 w-20 bg-white rounded-full left-8 bottom-80 flex justify-center items-center">
+        <div className="absolute h-20 w-20 bg-white rounded-full sm:left-8 sm:bottom-80 flex justify-center items-center left-6 bottom-70">
           <a href="https://github.com/Pranav-789">
             <FontAwesomeIcon
               icon={faGithub}
@@ -35,7 +35,7 @@ const AuraRing = () => {
             />
           </a>
         </div>
-        <div className="absolute h-20 w-20 bg-amber-50 rounded-full left-[-14px] bottom-15 flex justify-center items-center">
+        <div className="absolute h-20 w-20 bg-amber-50 rounded-full sm:left-[-14px] sm:bottom-15 flex justify-center items-center left-[-15px] bottom-15">
           <a href="https://www.instagram.com/pranav_z1_/">
             <FontAwesomeIcon
               icon={faInstagram}
@@ -43,7 +43,7 @@ const AuraRing = () => {
             />
           </a>
         </div>
-        <div className="absolute h-20 w-20 bg-amber-50 rounded-full right-[-14px] bottom-15 flex justify-center items-center">
+        <div className="absolute h-20 w-20 bg-amber-50 rounded-full sm:right-[-14px] sm:bottom-15 flex justify-center items-center bottom-15 right-[-10px]">
           <a href="https://www.linkedin.com/in/pranav-zambare-41917a310/">
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -51,7 +51,7 @@ const AuraRing = () => {
             />
           </a>
         </div>
-        <div className="absolute h-20 w-20 bg-amber-50 rounded-full right-8 bottom-80 flex justify-center items-center">
+        <div className="absolute h-20 w-20 bg-amber-50 rounded-full sm:right-8 sm:bottom-80 flex justify-center items-center bottom-70 right-6">
           <a href="https://codolio.com/profile/Pr2JIQmR">
             <FontAwesomeIcon
               icon={faCode}

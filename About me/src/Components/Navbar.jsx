@@ -9,7 +9,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   return (
     <div>
-      <div className="absolute top-4 w-[80%] h-12 rounded-3xl bg-white/10 z-1 align-middle left-1/2 transform -translate-x-1/2 flex items-center justify-center">
+      <div className="fixed top-4 w-[80%] h-12 rounded-3xl bg-white/10 z-1000 align-middle left-1/2 transform -translate-x-1/2 flex items-center justify-center">
         <ul className="flex justify-around items-center w-full text-lg">
           <li>
             <span className="hidden sm:inline">Home</span>
