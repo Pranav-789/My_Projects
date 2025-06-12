@@ -31,7 +31,7 @@ const HomeCard = () => {
   }, []);
 
   return (
-    <div className="min-h-screen w-full rounded-xl relative bg-blue-950 overflow-visible z-0">
+    <div className="min-h-screen w-full rounded-xl relative bg-blue-950 z-0 overflow-clip">
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
