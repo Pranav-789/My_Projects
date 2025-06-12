@@ -10,12 +10,26 @@ import Contact from './Components/Contact/Contact';
 const App = () => {
   return (
     <div className="flex flex-col justify-center bg-blue-950">
-      <Navbar/>
-      <HomeCard/>
-      <AboutMe/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
+      <Navbar />
+      <section id='home'>
+        <HomeCard />
+      </section>
+
+      <section id='about'>
+        <AboutMe />
+      </section>
+
+      <section id='skills'>
+        <Skills />
+      </section>
+
+      <section id='projects'>
+        <Projects />
+      </section>
+
+      <section id='contact'>
+        <Contact />
+      </section>    
     </div>
   );
 }

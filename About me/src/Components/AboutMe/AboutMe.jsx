@@ -12,7 +12,7 @@ const AboutMe = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ amount: 0.3 }}
+        viewport={{ amount: 0 }}
       >
         ABOUT ME
       </motion.h1>
@@ -21,7 +21,7 @@ const AboutMe = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
-        viewport={{ amount: 0.3 }}
+        viewport={{ amount: 0 }}
       >
         <div className="flex md:flex-row gap-4 flex-col justify-center items-center">
           <img
@@ -29,7 +29,7 @@ const AboutMe = () => {
             className="w-full max-w-[400px] rounded-xl object-cover"
           />
           <div className="p-4">
-            <p className="text-lg leading-relaxed text-justify">
+            <p className="text-lg font-semibold leading-relaxed text-justify">
               Hi, I’m Pranav — a Computer Science undergraduate at IIIT Pune
               with a strong foundation in programming and a growing passion for
               web development and problem-solving. I’m currently focused on

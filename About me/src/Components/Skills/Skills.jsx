@@ -17,7 +17,7 @@ const Skills = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ amount: 0.3 }}
+        viewport={{ amount: 0 }}
       >
         SKILLS
       </motion.h1>
@@ -27,7 +27,7 @@ const Skills = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.5, ease: "easeOut" }}
-        viewport={{ amount: 0.3 }}
+        viewport={{ amount: 0 }}
       >
         <div className="flex gap-6 overflow-x-auto flex-nowrap px-4 md:justify-center md:overflow-x-visible w-full">
           <div className="flex flex-col justify-center">
@@ -116,7 +116,7 @@ const Skills = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.5, ease: "easeOut" }}
-        viewport={{ amount: 0.3 }}
+        viewport={{ amount: 0 }}
       >
         <div className="flex gap-6 overflow-x-auto flex-nowrap px-4 md:justify-center md:overflow-x-visible w-full">
           <div className="flex flex-col justify-center">
@@ -205,7 +205,7 @@ const Skills = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.9, duration: 0.5, ease: "easeOut" }}
-        viewport={{ amount: 0.3 }}
+        viewport={{ amount: 0 }}
       >
         <div className="flex gap-6 overflow-x-auto flex-nowrap px-4 md:justify-center md:overflow-x-visible w-full">
           <div className="flex flex-col justify-center">
