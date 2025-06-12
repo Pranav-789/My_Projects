@@ -40,10 +40,10 @@ const HomeCard = () => {
         }}
         className="z-140 relative"
       >
-        <h1 className="text-center font-medium text-4xl mt-45 sm:mt-24 mt-short-screen">
+        <h1 className="text-center font-medium text-4xl mt-45 sm:mt-24 mt-short-screen md:text-7xl sm:text-6xl">
           Hi I'm <span className="text-teal-300">Pranav Zambare</span>
         </h1>
-        <div className="text-center mt-2 text-2xl font-semibold">
+        <div className="text-center mt-2 text-2xl font-semibold md:text-5xl sm:text-4xl">
           <span
             ref={typedRef}
             style={{ textShadow: "0 0 8px rgba(0, 0, 0, 0.8)" }}
