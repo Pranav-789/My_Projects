@@ -8,6 +8,9 @@ import expLogo from "../../assets/expressJS.png";
 import nodeLogo from "../../assets/nodeJS.png";
 import cppLogo from "../../assets/cpp_logo.png";
 import cLogo from "../../assets/C_logo.png";
+import motionLogo from "../../assets/motion.png";
+import tailwindLogo from "../../assets/tailwind.svg";
+import restAPILogo from "../../assets/restapi.png"
 
 const Skills = () => {
   return (
@@ -108,6 +111,63 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">React</p>
           </div>
+          <div>
+            <motion.div
+              className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
+              whileHover={{
+                rotateX: 35,
+                rotateY: -10,
+                scale: 1.1,
+                boxShadow: "0 20px 30px rgba(255, 255, 255, 0.3)",
+              }}
+              transition={{ ease: "easeInOut", duration: 0.3 }}
+              whileTap={{
+                scale: 0.9,
+              }}
+            >
+              <img src={motionLogo} className="rounded-3xl h-20 w-20" />
+            </motion.div>
+            <p className="text-center text-lg text-black">motion</p>
+          </div>
+          <div>
+            <motion.div
+              className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
+              whileHover={{
+                rotateX: 35,
+                rotateY: -10,
+                scale: 1.1,
+                boxShadow: "0 20px 30px rgba(255, 255, 255, 0.3)",
+              }}
+              transition={{ ease: "easeInOut", duration: 0.3 }}
+              whileTap={{
+                scale: 0.9,
+              }}
+            >
+              <img src={tailwindLogo} className="rounded-3xl h-20 w-20" />
+            </motion.div>
+            <p className="text-center text-lg text-black">tailwindCSS</p>
+          </div>
+          <div>
+            <motion.div
+              className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer bg-white"
+              whileHover={{
+                rotateX: 35,
+                rotateY: -10,
+                scale: 1.1,
+                boxShadow: "0 20px 30px rgba(255, 255, 255, 0.3)",
+              }}
+              transition={{ ease: "easeInOut", duration: 0.3 }}
+              whileTap={{
+                scale: 0.9,
+              }}
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+                className="h-12 w-12"
+              />
+            </motion.div>
+            <p className="text-center text-lg text-black">Next.js</p>
+          </div>
         </div>
       </motion.div>
 
@@ -127,24 +187,6 @@ const Skills = () => {
           </div>
           <div>
             <motion.div
-              className="h-20 w-20 flex justify-center items-center bg-amber-400 rounded-2xl cursor-pointer"
-              whileHover={{
-                rotateX: 35,
-                rotateY: -10,
-                scale: 1.1,
-                boxShadow: "0 20px 30px rgba(255, 255, 255, 0.3)",
-              }}
-              transition={{ ease: "easeInOut", duration: 0.3 }}
-              whileTap={{
-                scale: 0.9,
-              }}
-            >
-              <p className="text-4xl font-bold text-black">JS</p>
-            </motion.div>
-            <p className="text-center text-lg text-black">JavaScript</p>
-          </div>
-          <div>
-            <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
                 rotateX: 35,
@@ -160,6 +202,45 @@ const Skills = () => {
               <img src={nodeLogo} className="rounded-xl h-20 w-20" />
             </motion.div>
             <p className="text-center text-lg text-black">NodeJS</p>
+          </div>
+          <div>
+            <motion.div
+              className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
+              whileHover={{
+                rotateX: 35,
+                rotateY: -10,
+                scale: 1.1,
+                boxShadow: "0 20px 30px rgba(255, 255, 255, 0.3)",
+              }}
+              transition={{ ease: "easeInOut", duration: 0.3 }}
+              whileTap={{
+                scale: 0.9,
+              }}
+            >
+              <img
+                src={restAPILogo}
+                className="rounded-xl h-20 w-20"
+              />
+            </motion.div>
+            <p className="text-center text-lg text-black">REST API</p>
+          </div>
+          <div>
+            <motion.div
+              className="h-20 w-20 flex justify-center items-center bg-amber-400 rounded-2xl cursor-pointer"
+              whileHover={{
+                rotateX: 35,
+                rotateY: -10,
+                scale: 1.1,
+                boxShadow: "0 20px 30px rgba(255, 255, 255, 0.3)",
+              }}
+              transition={{ ease: "easeInOut", duration: 0.3 }}
+              whileTap={{
+                scale: 0.9,
+              }}
+            >
+              <p className="text-4xl font-bold text-black">JS</p>
+            </motion.div>
+            <p className="text-center text-lg text-black">JavaScript</p>
           </div>
           <div>
             <motion.div
