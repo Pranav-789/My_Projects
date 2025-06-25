@@ -31,14 +31,14 @@ const HomeCard = () => {
   }, []);
 
   return (
-    <div className="min-h-screen w-full rounded-xl relative bg-blue-950 z-0 overflow-clip">
+    <div className="min-h-screen w-full flex justify-center items-center flex-col rounded-xl relative bg-blue-950 z-0 overflow-clip">
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
-        transition={{ delay: 2.4, duration: 0.6 }}
+        transition={{ delay: 0, duration: 0.6 }}
         className="z-10 relative pointer-events-none"
       >
-        <h1 className="text-center font-medium text-4xl mt-45 sm:mt-24 mt-short-screen md:text-7xl sm:text-6xl pointer-events-auto">
+        <h1 className="text-center font-medium text-4xl md:text-7xl sm:text-6xl pointer-events-auto">
           Hi I'm <span className="text-teal-300">Pranav Zambare</span>
         </h1>
         <div className="text-center mt-2 text-2xl font-semibold md:text-5xl sm:text-4xl pointer-events-auto">
@@ -49,10 +49,10 @@ const HomeCard = () => {
         </div>
       </motion.div>
 
-      <div>
-        <PopUpFromBottom />
-        <BluePops />
-        <AuraRing />
+      <div className="w-full justify-center flex">
+        {/*<PopUpFromBottom />*/}
+        {/*<BluePops />*/}
+        <AuraRing/>
       </div>
     </div>
   );
