@@ -33,11 +33,11 @@ const Skills = () => {
         transition={{ delay: 0.3, duration: 0.5, ease: "easeOut" }}
         viewport={{ amount: 0 }}
       >
-        <h1 className="text-3xl text-black mb-4 font-semibold">
+        <h1 className="text-3xl text-black mb-6 mt-2 font-semibold w-full text-center">
           Tech Stacks and Frameworks
         </h1>
-        <div className="flex gap-6 flex-wrap justify-center px-4 w-full">
-          <div>
+        <div className="gap-6 grid-cols-2 sm:grid-cols-4 md:grid-cols-5 grid justify-center px-4 w-full">
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
@@ -55,7 +55,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">CSS</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
@@ -73,7 +73,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">HTML</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
@@ -91,7 +91,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">React</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
@@ -109,7 +109,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">motion</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
@@ -127,7 +127,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">tailwindCSS</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer bg-white"
               whileHover={{
@@ -148,7 +148,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">Next.js</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
@@ -166,7 +166,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">NodeJS</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
@@ -184,7 +184,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">REST API</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center bg-amber-400 rounded-2xl cursor-pointer"
               whileHover={{
@@ -202,7 +202,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">JavaScript</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
@@ -220,7 +220,7 @@ const Skills = () => {
             </motion.div>
             <p className="text-center text-lg text-black">Express</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <motion.div
               className="h-20 w-20 flex justify-center items-center rounded-2xl cursor-pointer"
               whileHover={{
